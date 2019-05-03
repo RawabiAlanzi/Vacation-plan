@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Vacation Plans</title>
+	<style>
+	 th , td{
+	border: 1px solid black;
+	}
+	</style>
+	</head>
+  <body>
+   <form  method="post" action="addact.php">
+  <h2> Plan your summer vacation </h2>
+  <img src="tenor.GIF" alt="summer image" width="445" height="295">
+  <p><label>Activity Name:</label></p>
+ <p> <input name ="activityName" type = "text" size ="85"></p>
+  
+			<p><strong>Importance:</strong></p>
+			<label><p><input name ="Importance" type ="radio" value = High  >High</p>
+			<p><input name ="Importance" type ="radio"
+			value = Medium checked>Medium</p>
+			<p><input name ="Importance" type ="radio"
+			value = Low >Low</p></label>
+			
+
+
+   <input type="submit" name = "submit" value="Add to the plan">
+    </form>
+  </body>
+</html>
